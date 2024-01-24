@@ -15,7 +15,7 @@ def play_game():
     else:
         return 'lose'
 
-def visualize_win_probability(num_simulations):
+def visualize_win_probability_pie(num_simulations):
     wins = 0
     results = {'win': 0, 'draw': 0, 'lose': 0}
 
@@ -27,13 +27,13 @@ def visualize_win_probability(num_simulations):
 
     win_probability = wins / num_simulations
 
-    # visualization
+    # Visualization using a pie chart
     labels = list(results.keys())
     values = list(results.values())
 
-    plt.bar(labels, values)
+    plt.pie(values, labels=labels, autopct='%1.1f%%', startangle=90)
     plt.title(f"Win Probability after {num_simulations} Simulations: {win_probability:.2%}")
     plt.show()
 
-# adjust number of simulations
-visualize_win_probability(num_simulations=1000)
+# Adjust the number of simulations and call the function
+visualize_win_probability_pie(num_simulations=1000)

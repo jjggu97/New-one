@@ -27,7 +27,7 @@ def visualize_win_probability_pie(num_simulations):
 
     win_probability = wins / num_simulations
 
-    # Visualization using a pie chart
+    # a pie chart
     labels = list(results.keys())
     values = list(results.values())
 
@@ -35,6 +35,6 @@ def visualize_win_probability_pie(num_simulations):
     plt.title(f"Win Probability after {num_simulations} Simulations: {win_probability:.2%}")
     plt.show()
 
-# Adjust the number of simulations and call the function
+# the number of simulations (default is 1000)
 visualize_win_probability_pie(num_simulations=1000)
 

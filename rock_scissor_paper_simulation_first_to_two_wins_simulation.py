@@ -11,7 +11,7 @@ def play_game():
         computer_choice = random.choice(choices)
 
         if my_choice == computer_choice:
-            continue  # 비겼을 경우 다시 시도
+            continue  # draw -> try again
 
         if (my_choice == "rock" and computer_choice == "scissor") or \
            (my_choice == "paper" and computer_choice == "rock") or \

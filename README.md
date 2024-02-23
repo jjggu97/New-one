@@ -46,6 +46,10 @@ This script simulates the rock, scissor, paper game according to the "3 out of 5
 
 ![rock_scissor_paper_first_to_two_wins_simulation](https://github.com/jjggu97/Rock-Paper-Scissor-Simulation/assets/88616515/00551f70-dd22-4011-980f-e2be92c65350)
 
+## Conclusion
+
+**As you can see, rock-paper-scissor is highly fair game!**
+
 ## References
 
 https://learningpenguin.net/2020/02/06/a-simple-algorithm-for-calculating-the-result-of-rock-paper-scissors-game/

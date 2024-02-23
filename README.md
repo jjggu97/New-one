@@ -48,7 +48,7 @@ This script simulates the rock, scissor, paper game according to the "3 out of 5
 
 ## Conclusion
 
-**As you can see, rock-paper-scissor is highly fair game!**
+**As you can see, rock-paper-scissor is realllllly fair game!**
 
 ## References
 

@@ -10,10 +10,13 @@ It prompts the user to make a choice and compares it with the computer's choice 
 
 ### How to use
 
-1. Run the script, and you'll be prompted to type rock, scissor, or paper.
-   
-2. The script will compare your choice with the computer's choice and display the result.
+1. Clone or Download repository.
 
+2. Open rock_scissor_paper.py, and compile script.
+
+3. When script prompted, Enter rock, paper or scissor.
+
+   
 ## rock_scissor_paper_simulation.py
 
 This script simulates the outcome of the rock, scissor, paper game and visualizes the win probability using a pie chart.
@@ -33,14 +36,6 @@ This script simulates the outcome of the rock, scissor, paper game and visualize
 ## rock_scissor_paper_first_to_two_wins_simulation.py
 
 This script simulates the rock, scissor, paper game according to the "3 out of 5, first to 3 wins" rule and visualizes the win probability using a bar chart.
-
-### How to use
-
-1. Run the script, and it will simulate the rock, scissor, paper game according to the "3 out of 5, first to 3 wins" rule.
-  
-2. It records the outcomes of each simulation and calculates the win probability.
-  
-3. The results are visualized using a bar chart.
 
 ### Example
 
